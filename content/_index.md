@@ -1,6 +1,3 @@
 +++
 title = "Type something ..."
 +++
-
-### headline this
-What's going on?
