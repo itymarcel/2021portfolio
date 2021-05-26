@@ -2,13 +2,47 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/project-cmips/</loc>
+    <loc>https://finji.vercel.app/posts/cmips/cmips/</loc>
     <lastmod>2021-05-25T16:29:17+01:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://finji.vercel.app/posts/moovel/moovel/</loc>
+    <lastmod>2021-05-25T16:29:17+01:00</lastmod>
   </url><url>
-    <loc>http://example.org/</loc>
+    <loc>https://finji.vercel.app/posts/vr/vr/</loc>
+    <lastmod>2021-05-25T16:29:17+01:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://finji.vercel.app/posts/mvsp/mvsp/</loc>
+    <lastmod>2021-05-25T16:29:17+01:00</lastmod>
+  </url><url>
+    <loc>https://finji.vercel.app/posts/movingtypes/movingtypes/</loc>
+    <lastmod>2021-05-25T16:29:17+01:00</lastmod>
+  </url><url>
+    <loc>https://finji.vercel.app/posts/</loc>
+    <lastmod>2021-05-25T16:29:17+01:00</lastmod>
+  </url><url>
+    <loc>https://finji.vercel.app/posts/taur/taur/</loc>
+    <lastmod>2021-05-25T16:29:17+01:00</lastmod>
+  </url><url>
+    <loc>https://finji.vercel.app/posts/matalog/matalog/</loc>
+    <lastmod>2021-05-25T16:29:17+01:00</lastmod>
+  </url><url>
+    <loc>https://finji.vercel.app/</loc>
+    <lastmod>2021-05-25T16:29:17+01:00</lastmod>
+  </url><url>
+    <loc>https://finji.vercel.app/posts/udiocollective/udiocollective/</loc>
+    <lastmod>2021-05-25T16:29:17+01:00</lastmod>
+  </url><url>
+    <loc>https://finji.vercel.app/posts/nike/nike/</loc>
+    <lastmod>2021-05-25T16:29:17+01:00</lastmod>
+  </url><url>
+    <loc>https://finji.vercel.app/partials/footer/</loc>
+  </url><url>
+    <loc>https://finji.vercel.app/categories/</loc>
+  </url><url>
+    <loc>https://finji.vercel.app/partials/header/</loc>
+  </url><url>
+    <loc>https://finji.vercel.app/partials/</loc>
+  </url><url>
+    <loc>https://finji.vercel.app/tags/</loc>
   </url>
 </urlset>
