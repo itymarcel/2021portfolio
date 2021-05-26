@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import "reset.scss";
+@import "variables.scss";
+@import "project.scss";
+
+
+html, body {
+    background-color: $background-color;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    a {
+        color: $link-colour;
+        text-decoration: none;
+        &:visited {
+            color: $link-colour;
+        }
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+    header {
+        input {
+            font-size: $font-size-headline;
+            &::placeholder {
+                color: $font-color-inactive;
+            }
+        }
+    }
+    footer {
+        margin-top: 100px;
+    }
+}
+body {
+    max-width: 1440px;
+    padding: 15px;
+}
+
+h1 {
+    margin: 0px;
+    padding: 0px;
+    font-size: $font-size-headline;
+    font-weight: normal;
+}
+
+.index-list  {
+    div:first-child {
+        margin-bottom: 1em;
+    }
+    &.project-list {
+        font-size: $font-size-headline;
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0 0 0 1em;
+            li:before {
+                content:'*'; /* Change this to unicode as needed*/
+                color: $link-colour;
+                width: 1em !important;
+                margin-left: -1em;
+                display: inline-block;
+            }
+        }
+    }
+    
+    &.also-project-list {
+        margin-top: 100px;
+        font-size: $font-size-headline-secondary;
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0 0 0 1.42857143em;
+            li:before {
+                content:'*'; /* Change this to unicode as needed*/
+                color: $link-colour;
+                width: $font-size-ratio !important;
+                margin-left: -$font-size-ratio;
+                display: inline-block;
+            }
+        }
+    }
+}
+

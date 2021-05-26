@@ -1,0 +1,20 @@
+html, body {
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    top: 0px;
+}
+
+input,
+select,
+textarea,
+button {
+    outline: none;
+    background: none;
+    border: none;
+    &:focus {
+        outline: none;
+        background: none;
+        border: none;
+    }
+}

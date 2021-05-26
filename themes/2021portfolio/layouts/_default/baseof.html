@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="{{ .Lang }}">
+  {{ $options := (dict "targetPath" "style.css" "outputStyle" "compact" "enableSourceMap" true "includePaths" (slice "node_modules/myscss")) }}
+  {{ $style := resources.Get "sass/main.scss" | resources.ToCSS $options }}
+  <link rel="stylesheet" href="{{ $style.Permalink }}"> 
   <body>
+    {{ block "header" . }}{{ end }}
     {{ block "main" . }}{{ end }}
+    {{ block "footer" . }}{{ end }}
   </body>
 </html>

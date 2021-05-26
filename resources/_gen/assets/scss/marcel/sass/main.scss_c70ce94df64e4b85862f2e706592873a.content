@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+html, body {
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+  top: 0px; }
+
+input,
+select,
+textarea,
+button {
+  outline: none;
+  background: none;
+  border: none; }
+  input:focus,
+  select:focus,
+  textarea:focus,
+  button:focus {
+    outline: none;
+    background: none;
+    border: none; }
+
+.project h1 a {
+  margin-right: 15px; }
+
+.project figure {
+  position: relative;
+  margin: 0;
+  padding: 0; }
+
+.project p {
+  font-size: 1.4em;
+  max-width: 900px; }
+
+.project ul {
+  list-style: none; }
+
+html, body {
+  background-color: #eee;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px; }
+  html a, body a {
+    color: #0008FF;
+    text-decoration: none; }
+    html a:visited, body a:visited {
+      color: #0008FF; }
+    html a:hover, body a:hover {
+      text-decoration: underline; }
+  html header input, body header input {
+    font-size: 2em; }
+
+body {
+  max-width: 1440px;
+  padding: 15px; }
+
+h1 {
+  margin: 0px;
+  padding: 0px;
+  font-size: 2em;
+  font-weight: normal; }
+
+.project-list {
+  font-size: 2em; }
+  .project-list ul {
+    list-style: none;
+    margin: 0;
+    padding: 0 0 0 1em; }
+    .project-list ul li:before {
+      content: '*';
+      /* Change this to unicode as needed*/
+      color: #0008FF;
+      width: 1em !important;
+      margin-left: -1em;
+      display: inline-block; }
+
+.also-project-list {
+  font-size: 1.6em; }
+  .also-project-list ul {
+    list-style: none;
+    margin: 0;
+    padding: 0 0 0 1.25em; }
+    .also-project-list ul li:before {
+      content: '*';
+      /* Change this to unicode as needed*/
+      color: #0008FF;
+      width: 1.25em !important;
+      margin-left: -1.25em;
+      display: inline-block; }

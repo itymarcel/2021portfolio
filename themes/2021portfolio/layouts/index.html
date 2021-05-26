@@ -1,19 +1,24 @@
 {{ define "main" }}
     <main aria-role="main">
-      <header class="homepage-header">
-        <h1>{{.Title}}</h1>
-        {{ with .Params.subtitle }}
-        <span class="subtitle">{{.}}</span> 
-        {{ end }}
-      </header>
-      <div class="homepage-content">
-        <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
-        {{.Content}}
+      <div class="index-list project-list">
+        <div>Projects</div>
+        <ul>
+          {{ range where .Site.Pages "Type" "project"}}
+              <li><a href="{{ .Permalink }}">{{ .Title }}</a> [{{ .Params.for }}]</li>
+          {{ end }}
+        </ul>
       </div>
-      <div>
-        {{ range .Site.RegularPages }}
-            <a href="{{ .Permalink }}">{{ .Title }}</a>
-        {{ end }}
+      <div class="index-list  also-project-list">
+        <div>Also projects</div>
+        <ul>
+          {{ range where .Site.Pages "Type" "also-project"}}
+            {{ if isset .Params "external" }}
+              <li><a href="{{ .Params.external }}" target="_blank">{{ .Title }}</a> [{{ .Params.for }}] <span>↗</span></li>
+            {{ else }}
+            <li><a href="{{ .Permalink }}">{{ .Title }}</a> [{{ .Params.for }}]</li>
+            {{ end }}
+          {{ end }}
+        </ul>
       </div>
     </main>
 {{ end }}

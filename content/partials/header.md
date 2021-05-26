@@ -1,5 +1,5 @@
 +++
-title = "Type something ..."
+title = "header"
 +++
 
 ### headline this
