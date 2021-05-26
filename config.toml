@@ -1,4 +1,4 @@
-baseURL = "https://www.hypersuper.uk/marcel/"
+baseURL = "https://finji.vercel.app"
 languageCode = "en-us"
 title = "finji"
 theme = "2021portfolio"
