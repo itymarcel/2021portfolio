@@ -4,8 +4,8 @@
   {{ $style := resources.Get "sass/main.scss" | resources.ToCSS $options }}
   <link rel="stylesheet" href="{{ $style.Permalink }}"> 
   <body>
-    {{ block "finjiheader" . }}{{ end }}
+    {{ partial "finjiheader.html" . }}
     {{ block "main" . }}{{ end }}
-    {{ block "finjifooter" . }}{{ end }}
+    {{ partial "finjifooter.html" . }}
   </body>
 </html>
