@@ -13,7 +13,7 @@ input:focus, select:focus, textarea:focus, button:focus { outline: none; backgro
 
 ul.pager { list-style: none; }
 
-html, body { background-color: #eee; font-family: 'Inter', sans-serif; font-size: 14px; }
+html, body { background-color: #eee; font-family: 'Inter', sans-serif; font-size: 14px; line-height: 1.4; }
 
 html a, body a { color: #0008FF; text-decoration: none; }
 
@@ -29,7 +29,7 @@ html footer, body footer { margin-top: 100px; }
 
 body { max-width: 1440px; padding: 15px; }
 
-h1 { margin: 0px; padding: 0px; font-size: 2em; font-weight: normal; }
+h1 { margin: 0px; padding: 0px; font-size: 2em; font-weight: normal; position: sticky; top: 0px; z-index: 5; }
 
 .index-list div:first-child { margin-bottom: 1em; }
 

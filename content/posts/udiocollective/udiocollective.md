@@ -5,6 +5,6 @@ draft: false
 summary: "Artist collective, since 2018"
 description: ""
 for: "personal"
-external: "www.udiocollective.com"
+external: "http://www.udiocollective.com"
 type: "also-project"
 ---

@@ -8,6 +8,7 @@ html, body {
     background-color: $background-color;
     font-family: 'Inter', sans-serif;
     font-size: 14px;
+    line-height: 1.4;
     a {
         color: $link-colour;
         text-decoration: none;
@@ -40,6 +41,9 @@ h1 {
     padding: 0px;
     font-size: $font-size-headline;
     font-weight: normal;
+    position: sticky;
+    top: 0px;
+    z-index: 5;
 }
 
 .index-list  {
